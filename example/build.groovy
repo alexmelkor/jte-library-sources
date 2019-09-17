@@ -1,6 +1,6 @@
 void call(){
     stage('Build Example') {
-        node('jnlp-agent') {
+        node(config.agent) {
             sh "echo 'Hello world'"
         }
     }
