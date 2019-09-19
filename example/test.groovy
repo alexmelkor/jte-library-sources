@@ -1,2 +1,4 @@
-echo(config)
-sh "echo test.groovy"
+void call(){
+  echo(config)
+  sh "echo test.groovy"
+}
